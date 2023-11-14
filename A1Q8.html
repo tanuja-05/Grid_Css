@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color picker</title>
+    <style>
+        *{
+            background-color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            color: wheat;
+        }
+        .container2{
+            display: grid;
+            grid-template-columns: repeat(4,350px);
+            grid-template-rows: repeat(2,1fr);
+            justify-content:space-evenly;
+            grid-gap: 30px;
+        }
+        .item{
+            height: 400px;
+            width: 300px;
+            border-radius: 20px;
+        }
+        p{
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 180px;
+        }
+        .item-1{
+            background-color:#e5ff00 ;
+        }
+        .item-2{
+            background-color: #5fa7d7;
+        }
+        .item-3{
+            background-color: #4ac519;
+        }
+        .item-4{
+            background-color:#a12136;
+        }
+        .item-5{
+            background-color: #0b3df1;
+        }
+        .item-6{
+            background-color: #2ceb6f;
+        }
+        .item-7{
+            background-color: #b938e0;
+        }
+        .item-8{
+            background-color: #61ffe2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feeling Fancy</h1>
+        <div class="container2">
+        <div class="item item-1">  <p class="item-1" >#e5ff00</p> </div>
+        <div class="item item-2">  <p class="item-2">#5fa7d7</p> </div>
+        <div class="item item-3">  <p class="item-3">#4ac519</p> </div>
+        <div class="item item-4">  <p class="item-4">#a12136</p> </div>
+        <div class="item item-5">  <p class="item-5">#0b3df1</p> </div>
+        <div class="item item-6">  <p class="item-6">#2ceb6f</p> </div>
+        <div class="item item-7">  <p class="item-7">#b938e0</p> </div>
+        <div class="item item-8">  <p class="item-8">#61ffe2</p> </div>
+    </div></div>
+</body>
+</html>
